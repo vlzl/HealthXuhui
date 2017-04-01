@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#55c1f0</color>
+    <color name="colorPrimaryDark">#55c1f0</color>
+    <color name="colorAccent">#00ba73</color>
+
+    <color name="view_click_normal">#ffffff</color>
+    <color name="view_click_focused">#55bbbbbb</color>
+
+    <color name="progress_backgound_color">#f7f9fb</color>
+    <color name="progress_color">#00ba73</color>
+
+    <color  name="image_text_color_on">#1db1ee</color>
+    <color  name="image_text_color_off">#969696</color>
+
+    <color name="refresh_backgound_color">#a0ffffff</color>
+    <color  name="refresh_color_black">#b0000000</color>
+</resources>

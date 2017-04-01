@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.browser.BrowserActivity"
+    tools:showIn="@layout/activity_browser"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null">
+
+        <FrameLayout
+            android:id="@+id/contentFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:indeterminate="false"
+            android:indeterminateOnly="false"
+            android:background="#000000"
+            android:progressDrawable="@drawable/horizontal_progress_layer"
+            android:minHeight="2dp"
+            android:maxHeight="2dp"
+            android:secondaryProgress="0"
+            android:progress="0"
+            android:max="100"/>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

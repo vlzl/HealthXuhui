@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<appurl>
+    <ip>http://180.166.42.108</ip>
+    <port>7001</port>
+    <appname>xhws_webapp/</appname>
+
+
+    <!-- 获取社区卫生服务中心列表数据 -->
+    <action name="jwd">jwd.action</action>
+
+    <!--获取最新版本信息apk-->
+    <action name="update">update.action</action>
+
+    <action name="download_apk">apk/download/android/HealthXuhui-android-release.apk</action>
+
+    <!-- 以下是二级菜单网址 -->
+    <web name="qygk">
+        <item name="qygk">
+            <name>区域概况</name>
+            <url>web/qygk/qygk.jsp</url>
+        </item>
+    </web>
+
+    <web name="qyws">
+        <item name="sjzl">
+            <name>数据质量</name>
+            <url>web/sjzl/sjzl.jsp</url>
+        </item>
+        <item name="jkda">
+            <name>健康档案</name>
+            <url>web/qyws/jkda.jsp</url>
+        </item>
+        <item name="jtqy">
+            <name>家庭签约</name>
+            <url>web/qyws/jtqy.jsp</url>
+        </item>
+        <item name="ccfqy">
+            <name>长处方签约服务</name>
+            <url>web/qyws/ccfqy.jsp</url>
+        </item>
+        <item name="yjyqy">
+            <name>1+1+1签约服务</name>
+            <url>web/qyws/yjyqy.jsp</url>
+        </item>
+        <item name="ccf">
+            <name>长处方</name>
+            <url>web/qyws/ccf.jsp</url>
+        </item>
+        <item name="cfys">
+            <name>处方延伸</name>
+            <url>web/qyws/cfys.jsp</url>
+        </item>
+        <item name="cysf">
+            <name>出院随访</name>
+            <url>web/qyws/cysf.jsp</url>
+        </item>
+        <item name="yyzz">
+            <name>预约转诊</name>
+            <url>web/qyws/yyzz.jsp</url>
+        </item>
+        <item name="bhgzl">
+            <name>标化工作量</name>
+            <url>web/qyws/bhgzl.jsp</url>
+        </item>
+    </web>
+
+    <web name="ylfw">
+        <item name="ylzsr">
+            <name>医疗总收入</name>
+            <url>web/ylfw/ylzsr.jsp</url>
+        </item>
+        <item name="mjzrc">
+            <name>门急诊人次</name>
+            <url>web/ylfw/mjzrc.jsp</url>
+        </item>
+        <item name="mjzfy">
+            <name>门急诊费用</name>
+            <url>web/ylfw/mjzfy.jsp</url>
+        </item>
+        <item name="cyrc">
+            <name>出院人次</name>
+            <url>web/ylfw/cyrc.jsp</url>
+        </item>
+        <item name="zyorcysr">
+            <name>住院收入(出院)</name>
+            <url>web/ylfw/zyorcysr.jsp</url>
+        </item>
+        <item name="mjzjcfy">
+            <name>门急诊均次费用</name>
+            <url>web/ylfw/mjzjcfy.jsp</url>
+        </item>
+        <item name="zyjcfy">
+            <name>住院均次费用</name>
+            <url>web/ylfw/zyjcfy.jsp</url>
+        </item>
+        <item name="zyssrc">
+            <name>住院手术人次</name>
+            <url>web/ylfw/zyssrc.jsp</url>
+        </item>
+        <item name="zyyzb">
+            <name>住院药占比</name>
+            <url>web/ylfw/zyyzb.jsp</url>
+        </item>
+        <item name="mjzyzb">
+            <name>门急诊药占比</name>
+            <url>web/ylfw/mjzyzb.jsp</url>
+        </item>
+    </web>
+
+    <web name="ggws">
+        <item name="mbkzgl">
+            <name>慢病控制管理</name>
+            <url>web/ggws/mbkzgl.jsp</url>
+        </item>
+        <item name="gxygl">
+            <name>高血压管理</name>
+            <url>web/ggws/gxygl.jsp</url>
+        </item>
+        <item name="tnbgl">
+            <name>糖尿病管理</name>
+            <url>web/ggws/tnbgl.jsp</url>
+        </item>
+    </web>
+</appurl>

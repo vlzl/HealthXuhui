@@ -1,0 +1,791 @@
+html, body {
+    height:100%;
+    background: #f0f0f0;
+}
+body{
+    font-size: 2rem;
+}
+.swiper-pagination-bullet-active{
+    background: #00ba73;
+}
+.time-data-box{
+    background: #fff;
+    border-top:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+    margin-top:1rem;
+}
+.time-data-box .h4-title{
+    position: relative;
+    /*border-bottom: 1px solid #efefef;*/
+    font-weight: normal;
+    padding: 1.5rem;
+}
+.time-data-box .h4-title .name{
+    float: left;
+    height: 5rem;
+    line-height: 5rem;
+    /*border-right:1px solid #c8c8c8;
+    padding-right: 2rem;*/
+    color: #333333;
+    font-size: 2rem;
+}
+.time-data-box .h4-title .name span{
+    color: #00ba73;
+}
+.time-data-box .h4-title .icon-title-01{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    margin-top: -3px;
+    background: url("../images/icon-title-01.png") no-repeat;
+    background-size: 100%;
+}
+.time-data-box .h4-title .right-text{
+    float: left;
+    /*padding-left: 2rem;*/
+    font-size: 2rem;
+    color: #333333;
+    line-height: 2.5rem;
+}
+.time-data-box .h4-title .right-text span{
+    color: #00ba73;
+}
+.time-data-box .h4-title .more-a{
+    width: 100%;
+    height: 100%;
+}
+.time-data-table{
+    width: 100%;
+}
+.time-data-table td{
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.time-data-table tr:last-child td{
+    border-bottom: 0;
+}
+.icon-arrow-right{
+	margin-top:1.5rem;
+	float:right;
+    display: block;
+    width: 1.1rem;
+    height: 1.8rem;
+    vertical-align: middle;
+    background: url("../images/icon-arrow-right.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.mod-data-text{
+
+}
+.mod-data-text:after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.mod-data-text .img-wrap{
+    display: inline-block;
+    width: 5rem;
+    height: 4.5rem;
+    margin-right: 0rem;
+}
+
+.mod-data-text .text-wrap{
+   display: inline-block;
+    text-align: left;
+    width: 15rem;
+}
+.mod-data-text .text-wrap h5{
+    font-weight: normal;
+    color: #656565;
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+}
+.mod-data-text .text-wrap p{
+
+    color: #979797;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.mod-data-text .text-wrap p strong{
+    font-size: 3rem;
+    color: #00ba73;
+    font-weight: normal;
+}
+.icon-round-more{
+    display: inline-block;
+    width: 3.85rem;
+    height: 0.95rem;
+    margin-right: 1rem;
+    background: url("../images/icon-round-more.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mod-data-text>a{
+    font-size: 2.2rem;
+    color: #23c386;
+}
+
+.h3-title{
+    position: relative;
+    height: 3rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.h3-title:after{
+    position: absolute;
+    left: 0;
+    top:50%;
+    /*margin-top: 1px;*/
+    width: 100%;
+    display: block;
+    content: "";
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    background: #d0d0d0;
+    z-index: 1;
+}
+.h3-title span{
+    position: relative;
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    z-index: 2;
+    padding: 0 1.5rem;
+    background: #f0f0f0;
+    font-size: 2.2rem;
+    color: #1882cf;
+}
+.h3-title span:before,
+.h3-title span:after{
+    position: absolute;
+    top: 50%;
+    display: block;
+    content: "";
+    background: #b4b4b4;
+    width: 6px;
+    height: 6px;
+    margin-top: -3px;
+    border-radius: 50%;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.h3-title span:before{
+    left: 0;
+}
+.h3-title span:after{
+    right: 0;
+}
+.icon-title-round-01,
+.icon-title-round-02{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+    margin-top: -0.3rem;
+}
+.icon-title-round-01{
+    background: url("../images/icon-title-round-01.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-title-round-02{
+    background: url("../images/icon-title-round-02.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.box-wrap{
+    /*border: 1px solid #d1d1d1;*/
+    margin: 1.5rem 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+.box-wrap .box-title{
+    font-size: 2rem;
+    color: #666666;
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #8addb5;
+    font-weight: normal;
+    margin: 0 1.5rem;
+}
+.box-wrap .box-content{
+    min-height: 5rem;
+}
+.box-content .h5-title{
+    text-align: center;
+    font-size: 2rem;
+    color: #333333;
+    font-weight: normal;
+    padding-top: 1.5rem;
+}
+.box-content .h5-title span{
+    color: #00ba73;
+}
+.icon-title-02,
+.icon-title-03,
+.icon-title-04,
+.icon-title-05{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    margin-top: -3px;
+}
+.icon-title-02{
+    background: url("../images/icon-title-02.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-title-03{
+    background: url("../images/icon-title-03.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-title-04{
+    background: url("../images/icon-title-04.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/*区域概况*/
+.area-box{
+    border-bottom: 1px solid #f8f8f8;
+    margin-bottom: 1rem;
+}
+.area-box{
+    background: #fff;
+}
+.area-h1-title{
+    height: 5.2rem;
+    line-height: 5.2rem;
+    background: #f0f0f0;
+    border-left:0.5rem solid #75c49e;
+    color: #656363;
+    font-size: 2.4rem;
+    padding-left: 1.5rem;
+}
+.area-medical-institution{
+    padding: 0 1rem;
+}
+.area-medical-institution .p-info{
+    color: #646464;
+    padding: 1rem;
+}
+.area-table-date{
+    width: 100%;
+}
+.area-table-date tr:nth-child(odd){
+    background: #e4eef8;
+    border-radius: 5px;
+}
+.area-table-date tr:nth-child(even){
+    background: #fff;
+    border-radius: 5px;
+}
+.area-table-date td{
+    padding:1rem 1.2rem;
+    line-height: 2.5rem;
+}
+.area-table-date td .name{
+    float: left;
+    font-size: 1.8rem;
+}
+.area-table-date td  .number{
+    float: right;
+    font-size: 1.8rem;
+    color: #979797;
+}
+.area-table-date td  .number strong{
+    font-size: 2rem;
+    color: #1aa66a;
+    font-weight: normal;
+    padding-right: 5px;
+}
+.area-medical-institution-chart{
+    height: 30rem;
+}
+.color-info{
+    color: #1aa66a;
+}
+.icon-area-resources-01,
+.icon-area-resources-02,
+.icon-area-resources-03{
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: 0 auto;
+}
+.icon-area-resources-01{
+    background: url("../images/icon-area-resources-01.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-area-resources-02{
+    background: url("../images/icon-area-resources-02.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-area-resources-03{
+    background: url("../images/icon-area-resources-03.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-area-data-mjz,
+.icon-area-data-cy{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+.icon-area-data-mjz{
+    background: url("../images/icon-area-data-mjz.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-area-data-cy{
+    background: url("../images/icon-area-data-cy.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.area-medical-tab-box{
+    background: #fff;
+}
+
+.medical-tab-nav{
+    border-bottom: 1px solid #c8c8c8;
+    text-align: center;
+}
+.medical-tab-nav li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 2rem;
+}
+.medical-tab-nav li a{
+    position: relative;
+    display: block;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    font-size: 2.4rem;
+    color: #656363;
+}
+.medical-tab-nav li.active a{
+    color: #1aa66a;
+}
+.medical-tab-nav li.active a:after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom:-1px;
+    height: 0.4rem;
+    background: #1aa66a;
+
+}
+
+.area-medical-tab-box .medical-tab-content{
+
+}
+.medical-tab{
+    display: none;
+}
+ .medical-tab.active{
+    display: block;
+}
+
+.medical-resources{
+    padding-bottom: 1.5rem;
+}
+
+.medical-resources .p-info{
+    color: #646464;
+    padding:1.5rem 1rem;
+}
+
+.medical-resources .list-ul > li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.medical-resources .list-ul > li .round{
+    display: block;
+    width: 11.8rem;
+    height: 11.8rem;
+    border-radius: 50%;
+    margin: 1rem auto;
+    background: #c0e4f6;
+    color: #226cb5;
+    padding-top: 1rem;
+}
+.medical-resources .list-ul > li p{
+    line-height: 3rem;
+}
+
+.medical-resources,
+.medical-people{
+    height: 28rem;
+}
+
+.medical-people .p-info{
+    padding:1.5rem 2.5rem;
+}
+
+.people-old-number{
+    height: 10rem;
+    padding:0 2rem;
+    margin-bottom: 2rem;
+}
+.people-old-number .boy-number,
+.people-old-number .girl-number{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 10rem;
+    padding:0 0.5rem;
+}
+.people-old-number .boy-number{
+    padding-right:6rem ;
+}
+.people-old-number .girl-number{
+    padding-left: 7rem;
+}
+
+.people-old-number .boy-number:after{
+    display: block;
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: 0px;
+    width: 1px;
+    height: 10rem;
+    background: #cccccc;
+}
+.people-old-number .boy-number .icon-people-boy{
+    position: absolute;
+    right: 1rem;
+    top:0;
+}
+.people-old-number .girl-number .icon-people-girl{
+    position: absolute;
+    left: 1rem;
+    top:0;
+}
+
+.people-old-number .people-average{
+    float: left;
+    height: 10rem;
+    width: 26%;
+}
+.people-old-number .people-average .p-text{
+    color: #009cf4;
+    text-align: center;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+.people-old-number .p-number{
+    padding-top: 2.5rem;
+    line-height: 2.5rem;
+    color: #4c4c4c;
+    font-size: 2rem;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.people-old-number .p-text{
+    font-size: 1.5rem;
+    color: #1aa66a;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.people-old-number .p-text strong{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.icon-people-boy{
+    display: block;
+    width: 4rem;
+    height: 10rem;
+    background: url("../images/icon-people-boy.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-people-girl{
+    display: block;
+    width: 4.5rem;
+    height: 10rem;
+    background: url("../images/icon-people-girl.png") no-repeat;
+    background-size: 100% 100%;
+}
+.icon-heart-blue{
+    display: block;
+    width: 8.1rem;
+    height: 7.15rem;
+    margin: 0 auto;
+    line-height: 7.15rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    font-style: normal;
+    background: url("../images/icon-heart-blue.png") no-repeat;
+    background-size:100% 100%;
+}
+
+
+.medical-people-list{
+    margin:0 2rem;
+    padding-bottom: 2rem;
+}
+.medical-people-list:after{
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}
+.medical-people-list >li{
+    border-bottom: 1px solid #cacaca;
+    float: left;
+    width: 50%;
+    padding: 1rem 0.5rem;
+    position: relative;
+}
+.medical-people-list:after{
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}
+.medical-people-list >li span.name{
+    display: block;
+    font-size: 1.6rem;
+    color: #4c4c4c;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.medical-people-list >li  span.number{
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    font-size: 1.8rem;
+    color: #1aa66a;
+}
+.medical-people-list >li:nth-child(3),
+.medical-people-list >li:last-child{
+    border-bottom: 0;
+}
+
+
+
+
+/*业务数据*/
+.area-business-data{
+
+}
+.area-business-data .ul-list{
+    padding: 1rem 0;
+}
+.area-business-data .ul-list li{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 1.5rem 0;
+    margin:0 1.5rem;
+}
+.area-business-data .ul-list li:last-child{
+    border-bottom: 0;
+}
+.area-business-data .ul-list li .img-wrap{
+    display: inline;
+    float: left;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
+.area-business-data .ul-list li .text-wrap{
+    line-height: 3rem;
+}
+
+.area-business-tab{
+
+}
+.area-business-tab .area-business-tab-nav{
+    width: 100%;
+  /*  display: flex;*/
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+  /*  margin-right: -1px;*/
+}
+.area-business-tab .area-business-tab-nav  li{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    width: auto;
+    height: 5rem;
+    line-height: 5rem;
+    margin-left: -1px;
+}
+.area-business-tab .area-business-tab-nav  li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #edf3f8;
+    text-align: center;
+    border: 1px solid #e0e4e7;
+    color: #646464;
+}
+.area-business-tab .area-business-tab-nav  li.active a{
+    border-color: #34a8e7;
+    background: #34a8e7;
+    color: #fff;
+}
+
+.area-business-tab .area-business-content{
+
+}
+.area-business-tab .area-business-content .tab{
+    display: none;
+}
+
+.area-business-tab .area-business-content .tab.active{
+    display: block;
+}
+
+.business-chart-box{
+    height: 36rem;
+}
+
+@media (max-width: 1366px) {
+    html{
+        font-size: 10px;
+    }
+}
+@media (max-width: 640px) {
+    html{
+        font-size: 7px;
+    }
+}
+@media (max-width: 480px) {
+    html{
+        font-size: 7px;
+    }
+}
+@media (max-width: 360px) {
+    html{
+        font-size: 7px;
+    }
+}
+@media (max-width: 320px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+.medical-tab-nav1{
+    border-bottom: 1px solid #c8c8c8;
+    text-align: center;
+}
+.medical-tab-nav1 li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 2.5rem;
+}
+.medical-tab-nav1 li a{
+    position: relative;
+    display: block;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    font-size: 2.4rem;
+    color: #656363;
+}
+.medical-tab-nav1 li.active a{
+    color: #1aa66a;
+}
+.medical-tab-nav1 li.active a:after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom:-1px;
+    height: 0.4rem;
+    background: #1aa66a;
+}
+
+.medical-tab-nav2{
+    border-bottom: 1px solid #c8c8c8;
+    text-align: center;
+}
+.medical-tab-nav2 li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 2.5rem;
+}
+.medical-tab-nav2 li a{
+    position: relative;
+    display: block;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    font-size: 2.4rem;
+    color: #656363;
+}
+.medical-tab-nav2 li.active a{
+    color: #1aa66a;
+}
+.medical-tab-nav2 li.active a:after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom:-1px;
+    height: 0.4rem;
+    background: #1aa66a;
+}
+.div_cfys{
+	margin:0px;
+	padding:0px;
+	margin-top:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:solid 1px #D3D3D3;
+	border-bottom:solid 1px #D3D3D3;
+}
+.medical-tab-nav_cfys{
+	margin-left:10%;
+	margin-right:10%;
+	padding:0px;
+    border: 1px solid #87cefa;
+    text-align: center;
+}
+.medical-tab-nav_cfys li{
+    display: inline-block;
+    text-align: center;
+    width:49%;
+}
+.medical-tab-nav_cfys li a{
+    position: relative;
+    display: block;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 2.4rem;
+}
+.medical-tab-nav_cfys li.active a{
+    color: #FFF;
+    background:#87cefa;
+    
+}
+.medical-tab-nav_cfys li.active a:after{
+    position: absolute;
+    display: block;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom:-1px;
+    height: 0.4rem;
+}
+

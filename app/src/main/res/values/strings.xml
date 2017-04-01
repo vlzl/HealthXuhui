@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">健康徐汇</string>
+
+    <string name="qygk">区域概况</string>
+    <string name="ggws">公共卫生</string>
+    <string name="ylfw">医疗服务</string>
+    <string name="qyws">区域卫生</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="community">社区卫生服务中心</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="cfys">处方延伸</string>
+    <string name="title_activity_exception">ExceptionActivity</string>
+
+
+    <!--权限-->
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">努力加载中……</string>
+</resources>

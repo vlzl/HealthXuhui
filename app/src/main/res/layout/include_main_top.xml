@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    app:layout_collapseMode="parallax"
+    app:layout_collapseParallaxMultiplier="0.7"
+    tools:context=".ui.main.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:focusableInTouchMode="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_qygk"
+            style="@style/MainItemRLStyle">
+
+            <TextView
+                android:id="@+id/tv_qygk"
+                style="@style/MainItemTVStyle"
+                android:text="@string/qygk" />
+
+            <ImageView
+                style="@style/MainItemIVStyle"
+                android:layout_above="@id/tv_qygk"
+                android:src="@drawable/qygk" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_qyws"
+            style="@style/MainItemRLStyle">
+
+            <TextView
+                android:id="@+id/tv_qyws"
+                style="@style/MainItemTVStyle"
+                android:text="@string/qyws" />
+
+            <ImageView
+                style="@style/MainItemIVStyle"
+                android:layout_above="@id/tv_qyws"
+                android:src="@drawable/qyws" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_ylfw"
+            style="@style/MainItemRLStyle">
+
+            <TextView
+                android:id="@+id/tv_ylfw"
+                style="@style/MainItemTVStyle"
+                android:text="@string/ylfw" />
+
+            <ImageView
+                style="@style/MainItemIVStyle"
+                android:layout_above="@id/tv_ylfw"
+                android:src="@drawable/ylfw" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_ggws"
+            style="@style/MainItemRLStyle">
+
+            <TextView
+                android:id="@+id/tv_ggws"
+                style="@style/MainItemTVStyle"
+                android:text="@string/ggws" />
+
+            <ImageView
+                style="@style/MainItemIVStyle"
+                android:layout_above="@id/tv_ggws"
+                android:src="@drawable/ggws" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
